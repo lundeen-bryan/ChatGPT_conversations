@@ -1,0 +1,49 @@
+# ChatGPT 101: Supercharge Your Work & Life (500+ Prompts inc)
+
+[ChatGPT 101 Supercharge Your Work &amp; Life (500+ Prompts inc)  Udemy](chrome-extension://pcmpcfapbekmbjjkdalcgopdkipoggdi/course/chatgpt-101-supercharge-your-work-life-500-prompts-inc/)
+
+Note: The main page to look at is linked below, but I will place most of the text here and link to the other pages as necessary.
+
+TOC here
+
+A high-quality prompt leads to a higher quality output because it provides the chatbot with necessary information and context. Poorly written prompts may result in less accurate or relevant responses. It is important to craft high-quality prompts to get accurate and helpful responses from ChatGPT.
+
+## Prompt Structure
+
+Below is a detailed set of templates that can be copy and pasted (with the relevant fields filled in) to generate high quality outputs from ChatGPT. Although the level of detail for the prompt may vary, the more information included, the more effective the output will be.
+
+### Basic Prompts
+
+#### Template _without_ context/primer
+
+Use this template when there is no need to include any context or primer information with the prompt.
+
+```json
+   {
+      "Expert persona of": {
+         "prefix": "persona of ",
+         "body": [
+            "Take on the persona of ${1:expert persona}.",
+            "${2:verb action}.",
+            "${3:optional length and output format}.",
+            "${4:tone of voice}.",
+            "${5:target audience}."
+         ],
+         "description": "Define the expert persona to use"
+      }
+   }
+```
+
+[Drafting the Perfect Prompt from Scratch](https://bothello.notion.site/Drafting-the-Perfect-Prompt-from-Scratch-4d513baf855641c3a2c6cb481e9384bc)
+
+[40 Follow-up Prompts](https://bothello.notion.site/40-Follow-up-Prompts-8c3bafde281341a6829a19e2e773d758)
+
+[50 Expert Personas for Prompts](https://bothello.notion.site/50-Expert-Personas-for-Prompts-b1b0d94d237c4ef38a917d3c7d4ca525)
+
+[30 Verbs for Starting Prompts](https://bothello.notion.site/30-Verbs-for-Starting-Prompts-ae94498266104412a3ff12197970d549)
+
+[40 Prompt Formats &amp; Output Options](https://bothello.notion.site/40-Prompt-Formats-Output-Options-eb176fc75ed8458db8ed1e4a7495142f)
+
+[100 Adjectives for Tone, Style and Voice](https://bothello.notion.site/100-Adjectives-for-Tone-Style-and-Voice-96179ff10bfc4efbb6781b108d12d10f)
+
+[20 Audience Archetypes](https://bothello.notion.site/20-Audience-Archetypes-43cbf3d925d6418ab17d71edec365c45)
