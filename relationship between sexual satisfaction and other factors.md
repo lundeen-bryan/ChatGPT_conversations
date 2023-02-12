@@ -1,3 +1,8 @@
+Side-Note
+---------
+
+The following conversation was fictitious, I just wanted to see what ChatGPT said, if it can provide citations. It's interesting that it was trained on this topic because I didn't think it would be something the engineers would think to include.
+
 You
 ---
 
