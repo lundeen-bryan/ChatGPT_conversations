@@ -50,16 +50,16 @@ ChatGPT
 
 The following fonts are also considered highly readable for on-screen reading:
 
-1.  Roboto
-2.  Open Sans
-3.  Nunito
-4.  Quicksand
-5.  Proxima Nova
-6.  Lato
-7.  Raleway
-8.  Montserrat
-9.  Source Sans Pro
-10.  Merriweather
+1. Roboto
+2. Open Sans
+3. Nunito
+4. Quicksand
+5. Proxima Nova
+6. Lato
+7. Raleway
+8. Montserrat
+9. Source Sans Pro
+10. Merriweather
 
 You
 ---
@@ -71,16 +71,16 @@ ChatGPT
 
 No problem. Here are 10 of the most readable fonts for on screen that come with Windows 10:
 
-1.  Segoe UI
-2.  Calibri
-3.  Arial
-4.  Times New Roman
-5.  Lucida Sans
-6.  Verdana
-7.  Consolas
-8.  Trebuchet MS
-9.  Tahoma
-10.  Georgia
+1. Segoe UI
+2. Calibri
+3. Arial
+4. Times New Roman
+5. Lucida Sans
+6. Verdana
+7. Consolas
+8. Trebuchet MS
+9. Tahoma
+10. Georgia
 
 These fonts have been proven to be highly readable on computer monitors and they come as part of Windows 10 as standard font packages. Hope this list helps!
 
@@ -94,9 +94,9 @@ ChatGPT
 
 Candara is an elegant and versatile font, but is not often listed among the most readable fonts for on-screen reading. This is due to a few factors:
 
-*   Its x-height is comparatively smaller, making it appear slightly more condensed than other fonts which makes reading more difficult
-*   The lack of contrast between thick and thin strokes reduces its legibility
-*   Its angular “bowls” can be distracting when used in large blocks of text
+* Its x-height is comparatively smaller, making it appear slightly more condensed than other fonts which makes reading more difficult
+* The lack of contrast between thick and thin strokes reduces its legibility
+* Its angular “bowls” can be distracting when used in large blocks of text
 
 However, while these elements make Candara less than ideal for extensive on-screen reading, it is more suited to titles, headings, and short text blocks.
 
@@ -112,17 +112,74 @@ Most Readable Fonts for on Screen
 
 It is important to choose fonts that are readable, clear and legible when preparing text for viewing on a computer monitor or phone. To help, here is a list of 10 of the most readable fonts for on screen:
 
-1.  Roboto
-2.  Open Sans
-3.  Lato
-4.  Montserrat
-5.  Raleway
-6.  Source Sans Pro
-7.  Oswald
-8.  Playfair Display
-9.  PT Sans
-10.  Fira Sans
+1. Roboto
+2. Open Sans
+3. Lato
+4. Montserrat
+5. Raleway
+6. Source Sans Pro
+7. Oswald
+8. Playfair Display
+9. PT Sans
+10. Fira Sans
 
 Windows 10 includes five of these fonts as part of its standard installation: Roboto, Open Sans, Lato, Montserrat and Raleway.
 
 Candara and Lucida Fax are not on this list because they are considered to be less readable than the other fonts mentioned. Candara is a sans serif typeface, which can sometimes make it difficult for readers to differentiate between letters and numbers clearly, while Lucida Fax has a low x-height, making it difficult for some people to read the text at smaller sizes.
+
+## When Asking Rubberduck AI these are my answers:
+
+
+**Take on the persona of a web design course instructor. Explain what are the most readable fonts for reading on a monitor. Write a blog post in a descriptive tone for students.**
+
+As a web design course instructor, it is important to understand the most readable fonts for reading on a monitor. There are a few key factors to consider when selecting a font for a website.
+
+First, the font should be legible and easy to read. Fonts with thick strokes and large x-heights are generally more readable than thin, delicate fonts. Sans-serif fonts are also more readable than serif fonts, as they lack the extra flourishes that can make text difficult to read. Popular sans-serif fonts include Arial, Verdana, and Helvetica.
+
+Second, the font should be appropriate for the content. For example, a font with a playful, whimsical style may be appropriate for a children’s website, but not for a professional business website.
+
+Finally, the font should be compatible with the web browser. Some fonts are only available on certain browsers, so it is important to check the compatibility before selecting a font.
+
+In conclusion, when selecting a font for a website, it is important to consider legibility, appropriateness, and compatibility. By taking these factors into account, you can ensure that your website is easy to read and looks great.
+
+Give me 10 fonts that meet the criteria you listed above.
+
+Sure, here are 10 fonts that meet the criteria you listed above:
+
+1. Arial
+2. Verdana
+3. Helvetica
+4. Open Sans
+5. Roboto
+6. Lato
+7. Montserrat
+8. Source Sans Pro
+9. Raleway
+10. PT Sans
+
+These fonts are all legible, appropriate for the content, and compatible with most web browsers. Additionally, they all have thick strokes and large x-heights, making them easy to read on a monitor.
+
+Can you give me 10 more fonts for on screen that come with Windows 10?
+
+Sure, here are 10 fonts that come with Windows 10:
+
+1. Calibri
+2. Cambria
+3. Candara
+4. Consolas
+5. Constantia
+6. Corbel
+7. Segoe UI
+8. Tahoma
+9. Trebuchet MS
+10. Verdana
+
+These fonts are all legible, appropriate for the content, and compatible with Windows 10. Additionally, they all have thick strokes and large x-heights, making them easy to read on a monitor.
+
+Why is Lucida Fax not on the list?
+
+Lucida Fax is not on the list because it is not included with Windows 10. It is a serif font, which makes it less readable on a monitor than sans-serif fonts. Additionally, it is not compatible with all web browsers, so it may not be the best choice for a website.
+
+Why is Candara not on the list?
+
+Candara is not on the list because it is not included with Windows 10. It is a sans-serif font, which makes it more readable on a monitor than serif fonts. However, it is not compatible with all web browsers, so it may not be the best choice for a website.

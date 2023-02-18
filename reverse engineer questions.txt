@@ -1,0 +1,6 @@
+EVERSE PROMPT ENGINEERING - Step-by-Step - ChatGPT
+
+1.
+Can we talk about Reverse Prompt Engineering? By Reverse Prompt Engineering I mean creating a prompt from a given text.
+
+https://www.youtube.com/watch?v=_6lv6yeltW0&ab_channel=AllAboutAI
