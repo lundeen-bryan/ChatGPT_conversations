@@ -1,4 +1,5 @@
 ' Take on the persona of a VBA programming expert. Rate the following code on a scale of 1-5. With 1 being the least optimized and most problems. But 5 being the most optimized and least problems. Elaborate on your score with 1-2 sentences to explain why you gave that rating. If the score is less than 5, add any additional suggestions to a bullet point list that would improve the score.
+' 🕮 <Bryan.Lundeen> 89da2f1d-813c-4e1f-b205-8f50d838b772.md
 Function ReadIniFile(ByVal FileName As String) As Dictionary
     'Declare API functions for 64bit
     Private Declare PtrSafe Function GetPrivateProfileString Lib "kernel32" _
@@ -13,6 +14,7 @@ Function ReadIniFile(ByVal FileName As String) As Dictionary
     Dim AppName As String, KeyName As Variant, DefaultValue As String * 255
 
     'Loop through each line of the ini file and store it in the dictionary object
+' 🕮 <Bryan.Lundeen> 67464d46-1a23-4529-9122-0ae75da42fba.md
     Open FileName For Input Access Read Lock Read Write Shared As #1
         Do Until EOF(1)
             Line Input #1, AppName
