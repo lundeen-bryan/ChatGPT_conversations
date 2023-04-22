@@ -1,0 +1,2 @@
+CONTINUE_LINE =
+Please continue from the line that says CONTINUE_LINE and place the text in a Markdown codeblock. When all code has been completed, please write "Refactoring finished." outside of the Markdown codeblock.
