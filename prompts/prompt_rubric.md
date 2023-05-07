@@ -1,6 +1,6 @@
 # Prompt Rubric
 
-Can you rate a prompt using the following ChatGPT grading rubric for grading user prompts?
+Can you rate a prompt using the following ChatGPT grading rubric for grading user prompts? Use the following table as a rubric.
 
 | Criteria | Description | Maximum Points | Rating | Letter Grade |
 | -------- | -----------| --------------| ------ | ------------ |
@@ -11,9 +11,13 @@ Can you rate a prompt using the following ChatGPT grading rubric for grading use
 | Grammar | The prompt is free of grammatical errors and typos. | 10 |        |              |
 | Contextual awareness | The prompt takes into account the current conversation or previous responses. | 15 |        |              |
 | Uniqueness | The prompt is original and not a duplicate of previous prompts. | 5 |        |              |
-| Sensitivity | The prompt shows sensitivity towards potentially sensitive topics or groups. | 10 |        |              |
+| Sensitivity | The prompt shows sensitivity towards potentially sensitive topics or groups. | 5 |        |              |
 | Domain knowledge | The prompt shows basic domain knowledge on the topic at hand. | 5 |        |              |
-| Total    |                                             | 100 |        |              |
+| Total (without penalty) |                                             | 100 |        |              |
+| Penalty for illegal/unethical content | Deduct 20% from total score if prompt contains illegal or unethical requests |   |        |              |
+| Total (with penalty) |                                             | 100 |        |              |
+
+If a prompt contains illegal or unethical requests, 20% of the total score will be deducted as a penalty.
 
 The letter grade in the last column is based on the following letter grade rubric:
 
@@ -33,4 +37,9 @@ The letter grade in the last column is based on the following letter grade rubri
 | D- | 60-62 | Failing, extremely poor performance |
 | F | 0-59 | Failing, no credit earned |
 
-The point ranges are based on a distribution of scores and are aligned with the maximum points available in the ChatGPT grading rubric. The descriptions provide a general sense of the quality of performance associated with each letter grade.
+The point ranges are based on a distribution of scores and are aligned with the maximum points available in the ChatGPT grading rubric.
+
+After providing the grade in a table, provide a description and a general sense of the quality of performance of the prompt. Provide brief instructions on how to improve the prompt.
+
+Please rate the following prompt:
+```
