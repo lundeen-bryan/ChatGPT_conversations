@@ -10,8 +10,10 @@ Place the text inside to show they are not part of your question.
 Also you should use square brackets to designate a variable.
 
 ## USER
+
 Summarize the text delimited by triple backticks into a single sentence.
-```
+
+```markdown
 Large language models, such as ChatGPT, use deep learning (DL) to reproduce human language in a convincing and human-like way. They are becoming increasingly common and are already being used in content marketing, customer services and a variety of business applications. As a result, it is inevitable that language models will also soon debut in healthcare, an area where they hold tremendous potential to improve health and enhance patients’ lives, but not without pitfalls.
 
 ChatGPT’s ability to engage people with human-like conversation serves as a reminder of how important language and communication are to the human experience and well-being. Effective communication through language helps people to forge relationships with others, including the relationships between patients and healthcare professionals. One way that language models could improve care is by learning and producing language to assist patients in communicating with healthcare workers and with each other. For instance, it could help to improve compliance with medical prescriptions, by making the language more accessible to the patient and by reducing the chance of miscommunication. In addition, given that the quality of patient–physician relationships affect patient outcomes in a variety of conditions ranging from mental health1 to obesity2 and cancer3, it is reasonable to assume that using language models to strengthen those relationships through better communication would have beneficial impact for patients.
@@ -28,4 +30,5 @@ This means that the use of ChatGPT and other language models in healthcare will 
 ```
 
 ## ASSISTANT
+
 Large language models like ChatGPT have significant potential to improve healthcare communication, mental health support, and personalized treatments, but their applications need careful evaluation and safeguards to prevent misuse and ensure they don't replace expert clinical consultation.
