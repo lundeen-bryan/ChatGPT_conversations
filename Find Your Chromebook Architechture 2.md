@@ -1,6 +1,6 @@
 June 3rd 2023, 11:27:20 am
 ********
-Chromebook Architecture: Find Command
+# Find Chromebook Architecture
 
 **QUESTION**:
 
