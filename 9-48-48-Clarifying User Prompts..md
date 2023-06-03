@@ -1,6 +1,6 @@
 # Notes on How To Make A Good Prompt
 
-## Link to notes
+**Link to notes**
 
 Also see bottom of file for full chat transcript
 
@@ -12,6 +12,10 @@ Please set the variable [TITLE] to represent the title of this ChatGPT session o
 [TITLE] = "ChatGPT Prompt Engineering"
 
 ## Aliasing the ChatGPT Bot
+
+First setup the terms tha will be used in the chat.
+
+---
 
 [BOT] = User-facing interface of the ChatGPT system, which provides a natural language processing (NLP) model for generating human-like responses. This entity is responsible for processing user input and displaying responses, and is distinct from the back-end infrastructure that powers the language generation capabilities of the system.
 
@@ -31,9 +35,12 @@ The [TASK AT HAND] refers to the specific task or objective that a user is tryin
 [TASK AT HAND] =
 
 The [PERSONA] is a particular expert role that the [BOT] would emulate while answering questions from the [USER]. [BOT] may adjust it's language generation capabilities or responses to better align with the characteristics or behavior of the [PERSONA] requested by the [USER]. This could involve using more technical jargon, providing more detailed or specific answers, or adopting to a more formal or authoritative tone.
-[PERSONA] =
 
 Answer with "..." if you acknowledge. Don't write anything yet.
+
+---
+
+Typically the chat will answer with "..."
 
 #### Initial Command:
 

@@ -1,20 +1,49 @@
-## USER
+# How to Use an INI file in VBA for Variables
+
+<!-- TOC -->
+
+- [How to Use an INI file in VBA for Variables](#how-to-use-an-ini-file-in-vba-for-variables)
+  - [As a VBA Programmer Persona Answer the Following Questions](#as-a-vba-programmer-persona-answer-the-following-questions)
+    - [Assistant Agrees to Persona](#assistant-agrees-to-persona)
+  - [Write A College-Level Paper on Whether it is Bad to Use Global Variables](#write-a-college-level-paper-on-whether-it-is-bad-to-use-global-variables)
+    - [Assistant Writes Essay](#assistant-writes-essay)
+      - [Introduction](#introduction)
+      - [Understanding Global Variables](#understanding-global-variables)
+      - [Potential Issues with Global Variables](#potential-issues-with-global-variables)
+      - [Best Practices for Using Global Variables](#best-practices-for-using-global-variables)
+      - [Conclusion](#conclusion)
+  - [Requirements For Word VBA That Mail Merges SQL Data to Fax Cover Sheets](#requirements-for-word-vba-that-mail-merges-sql-data-to-fax-cover-sheets)
+    - [Assistant Offers 3 Approaches](#assistant-offers-3-approaches)
+      - [Approach 1: Use Function Arguments](#approach-1-use-function-arguments)
+      - [Approach 2: Use Object Properties](#approach-2-use-object-properties)
+      - [Approach 3: Use Custom Document Properties](#approach-3-use-custom-document-properties)
+  - [User Asks For Supporting References for ChatGPT's Position on Global Variables](#user-asks-for-supporting-references-for-chatgpts-position-on-global-variables)
+      - [Assistant Provides 5 References to Backup Argument Against Global Variables](#assistant-provides-5-references-to-backup-argument-against-global-variables)
+  - [What are the Pros and Cons of Using an INI File to Store Variables](#what-are-the-pros-and-cons-of-using-an-ini-file-to-store-variables)
+    - [Table Showing Pros and Cons of Using an INI File for Variables](#table-showing-pros-and-cons-of-using-an-ini-file-for-variables)
+
+<!-- /TOC -->
+
+## As a VBA Programmer Persona Answer the Following Questions
+
 [Take on the persona of a VBA programming expert. I am going to ask you some questions about how to improve my code. Ask me any questions to clarify what you need to know about my requirements before you answer my questions.] Do you understand?
 
-## ASSISTANT
+### Assistant Agrees to Persona
+
 Yes, I understand. As a VBA programming expert, I will ask you some questions to understand your requirements and then provide suggestions on how to improve your code. Please feel free to ask me any questions that you may have.
 
-## USER
-Is using global variables a bad practice in VBA programming? Please explain why or why not with 5 or more paragraphs, use headings, subheadings, bold, italic, numbered and bulleted lists to explain your reasoning. Write at a college level. Add any references to further resources which can be from books, or internet links, or speeches. Provide examples of code to show best practices. Lastly, place your answer within a markdown codeblock. 
+## Write A College-Level Paper on Whether it is Bad to Use Global Variables
 
-## ASSISTANT
+Is using global variables a bad practice in VBA programming? Please explain why or why not with 5 or more paragraphs, use headings, subheadings, bold, italic, numbered and bulleted lists to explain your reasoning. Write at a college level. Add any references to further resources which can be from books, or internet links, or speeches. Provide examples of code to show best practices. Lastly, place your answer within a markdown codeblock.
+
+### Assistant Writes Essay
 Sure, I'd be happy to answer your question about the use of global variables in VBA programming.
 
-## Introduction
+#### Introduction
 
 In VBA programming, global variables are often used to store values or data that can be accessed and modified by multiple procedures or functions. While the use of global variables can be convenient and efficient, it can also lead to various issues and errors if not used carefully. In this answer, I will explain why the use of global variables is often considered a bad practice in VBA programming.
 
-## Understanding Global Variables
+#### Understanding Global Variables
 
 Before we discuss the potential issues with using global variables, it's important to first understand what they are and how they work. Global variables are variables that are defined outside of any procedure or function, making them accessible from anywhere within the VBA project. For example, the following code defines a global variable called "myGlobalVariable":
 
@@ -24,7 +53,7 @@ Public myGlobalVariable As String
 
 Once this variable is defined, it can be accessed and modified from any module or procedure in the project.
 
-## Potential Issues with Global Variables
+#### Potential Issues with Global Variables
 
 While the use of global variables can be convenient, it can also lead to various issues and errors if not used carefully. Here are some potential issues to consider:
 
@@ -36,7 +65,7 @@ While the use of global variables can be convenient, it can also lead to various
 
 4. **Memory Management**: Using global variables can also lead to memory management issues. Since global variables remain in memory for the entire duration of the project, they can take up significant amounts of memory and slow down the performance of the application.
 
-## Best Practices for Using Global Variables
+#### Best Practices for Using Global Variables
 
 While the use of global variables is often discouraged in VBA programming, there are certain situations where they can be useful. Here are some best practices to keep in mind when using global variables:
 
@@ -53,23 +82,19 @@ While the use of global variables is often discouraged in VBA programming, there
 
 4. **Document Your Code**: Whenever you use global variables, make sure to document your code to explain their purpose and how they are used. This will make it easier for other developers to understand your code and avoid potential issues.
 
-## Conclusion
+#### Conclusion
 
 In conclusion, while the use of global variables can be convenient in VBA programming, it can also lead to various issues and errors if not used carefully. By following
 
-## USER
-[Please provide another 5 or more paragraphs showing alternatives to using global variables. With headings, subheadings, bold and italic text. Write at a college level. If references to support your argument are available, please provide them in an APA style bibliography wrapped in a Markdown codeblock. Also provide coding examples in markdown codeblocks throughout your answer. Ask any questions to clarify my requirements before providing your answer.] Do you have any questions to clarify my requirements before providing your answer?
+## Requirements For Word VBA That Mail Merges SQL Data to Fax Cover Sheets
 
-## ASSISTANT
-Sure, I'd be happy to provide more information about alternatives to using global variables. Before I begin, can you provide some context about your VBA project and what kind of data you are working with? This will help me provide more specific suggestions.
+[My VBA project is in a Microsoft Word ".dotx" template. It will display data to the user in a userform about patients in a hospital. The database holding the data about each patient is in a SSMS SQL table view, but the table is not accessible to all users. So the data was placed in an Excel workbook. The sheet that holds the information is titled "ODS1." Most of the data are in text format, some have dates. The user views the data in the userform and compares it with an active Word document. If all the data matches, the data is placed in a mailmerge table in the document. Then the VBA code opens other ".dotx" templates where the data will be merged, such as the patient's name, their identification numbers, will be merged into a Fax Cover Sheet. Lastly the VBA code saves some of the merged forms into PDF and saved to the users local Documents folder. ] Does that answer your questions? Please ask more questions, if my answers do not provide enough information.
 
-## USER
-[My VBA project is in a Microsoft Word ".dotx" template. It will display data to the user in a userform about patients in a hospital. The database holding the data about each patient is in a SSMS SQL table view, but the table is not accessible to all users. So the data was placed in an Excel workbook. The sheet that holds the information is titled "ODS1." Most of the data are in text format, some have dates. The user views the data in the userform and compares it with an active Word document. If all the data matches, the data is placed in a mailmerge table in the document. Then the VBA code opens other ".dotx" templates where the data will be merged, such as the patient's name, their identification numbers, will be merged into a Fax Cover Sheet. Lastly the VBA code saves some of the merged forms into PDF and saved to the users local Documents folder. ] Does that answer your questions? Please ask more questions, if my answers do not provide enough information. 
+### Assistant Offers 3 Approaches
 
-## ASSISTANT
 Yes, that's very helpful. Based on your requirements, here are some suggestions for alternative approaches to using global variables:
 
-## Approach 1: Use Function Arguments
+#### Approach 1: Use Function Arguments
 
 One way to avoid using global variables is to pass data between procedures and functions using function arguments. For example, if you need to access data from the Excel workbook, you could pass the workbook and worksheet objects as arguments to the functions that need to use them. Here's an example:
 
@@ -92,7 +117,7 @@ End Function
 
 In this example, the `DisplayPatientData` procedure calls the `GetPatientData` function and passes the workbook and worksheet name as arguments. The `GetPatientData` function retrieves the data from the worksheet and stores it in a 2-dimensional array, which is returned to the calling procedure.
 
-## Approach 2: Use Object Properties
+#### Approach 2: Use Object Properties
 
 Another approach is to use object properties to store and access data. For example, you could create an object to represent the patient data and define properties for each field of data. Here's an example:
 
@@ -125,7 +150,7 @@ End Class
 
 In this example, the `PatientData` class defines properties for each field of data that you need to access, such as the patient name and admission date. The `LoadData` method loads the data from the Excel workbook into the object's properties. The `DisplayPatientData` procedure calls the `LoadData` method to populate the object's properties and then displays the patient data in a userform.
 
-## Approach 3: Use Custom Document Properties
+#### Approach 3: Use Custom Document Properties
 
 If you need to store data within the Word document itself, you could use custom document properties. Custom document properties are user-defined properties that can be added to a Word document and accessed programmatically. Here's an example:
 
@@ -141,14 +166,12 @@ End Function
 
 In this example, the `SetDocumentProperty` procedure sets the value of a custom document property, and the `GetDocumentProperty` function retrieves the value of a custom document property. You could use these procedures to store and access data within the Word document itself, rather than relying on global variables.
 
-## Conclusion
+## User Asks For Supporting References for ChatGPT's Position on Global Variables
 
-In conclusion, there are several approaches you can take to avoid using global variables in your VBA project. By passing data between procedures and functions using function arguments,
+Do you know of any references to support your position that I can look up for further information? I would like to see these references given in an APA style bibliography and wrapped in a Markdown block. Let me know if you do not have any references to support your position.
 
-## USER
-Do you know of any references to support your position that I can look up for further information? I would like to see these references given in an APA style bibliography and wrapped in a Markdown block. Let me know if you do not have any references to support your position.  
+#### Assistant Provides 5 References to Backup Argument Against Global Variables
 
-## ASSISTANT
 Sure, here are some references that provide more information about the potential issues with using global variables in VBA programming:
 
 - De Vos, R. (2019). Global variables in VBA: The good, the bad, and the ugly. TheSpreadsheetGuru.com. Retrieved from https://www.thespreadsheetguru.com/blog/global-variables-in-vba-the-good-the-bad-and-the-ugly
@@ -163,10 +186,12 @@ Sure, here are some references that provide more information about the potential
 
 These references provide additional information and best practices for using global variables in VBA programming.
 
-## USER
-If I used an INI config file to store constants, such as file paths, what are the pros and cons of this approach. Place your pros and cons in the form of a table. After the table, write another 2-3 paragraphs to explain the general pros and cons of this approach. 
+## What are the Pros and Cons of Using an INI File to Store Variables
 
-## ASSISTANT
+If I used an INI config file to store constants, such as file paths, what are the pros and cons of this approach. Place your pros and cons in the form of a table. After the table, write another 2-3 paragraphs to explain the general pros and cons of this approach.
+
+### Table Showing Pros and Cons of Using an INI File for Variables
+
 Sure, here's a table summarizing the pros and cons of using an INI config file to store constants in VBA programming:
 
 | Pros | Cons |
