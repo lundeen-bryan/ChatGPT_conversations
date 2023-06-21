@@ -1,0 +1,1 @@
+I need to create a financial forecast for the next quarter. Can you help me create an Excel formula-based forecast that takes into account various financial metrics?
