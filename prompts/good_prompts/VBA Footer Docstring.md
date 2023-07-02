@@ -4,16 +4,16 @@ Please review the code placed in the previous prompt and use the following templ
 
 ```vba
 ''===========================================================================================
-'' Procedure: ......... {{name of the procedure}}
-'' Description: ....... {{description of the procedure}}
+'' Procedure: ......... [procedure_name]
+'' Description: ....... [procedure_description]
 '' Version: ........... 1.0.001 - major.minor.patch
-'' Created: ........... {{YYYY-MM-DD}}
+'' Created: ........... [YYYY-MM-DD]
 '' Updated: ........... n/a
 '' Module URL: ........ n/a
 '' Installs to: ....... n/a
-'' Compatibility: ..... {{compatibility with Word, Excel, etc.}}
+'' Compatibility: ..... [compatibility with Word, Excel, etc.]
 '' Contact Author: .... lundeen-bryan
-'' Copyright:  ........ company � YYYY. All rights reserved.
+'' Copyright:  ........ company [copyright symbol] YYYY. All rights reserved.
 ''
 '' Parameters:
 '' name(type): param_description

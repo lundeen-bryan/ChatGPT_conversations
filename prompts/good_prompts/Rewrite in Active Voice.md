@@ -1,4 +1,4 @@
 # Rewrite in Active Voice
 
-{{SENTENCE}} =
-Can you rewrite this {{SENTENCE}} using active voice?
+[SENTENCE] = {{SENTENCE}}
+Can you rewrite this [SENTENCE] using active voice?

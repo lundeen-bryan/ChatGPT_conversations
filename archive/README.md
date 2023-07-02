@@ -1,7 +1,22 @@
 You
 ---
 
-Take on the persona of an expert in GitHub. Write a README.md file to go with my repository of conversations with ChatGPT. Include that I used a VS Code Extension called ChatGPT by Ali Gencay. Include that I'm open to contributions. Include the following headings: Table of Contents, Description, How to Use, Future Plans, Link to ChatGPT Website, Contributions, and License. Under contributions, state that I am accepting contributions. Use a Descriptive tone of voice, write professional, business style. The target audience is a tech-savvy customer.
+[DOMAIN] = {{DOMAIN}}
+[TOPIC] = {{TOPIC}}
+[HEADINGS] = (
+"Table of Contents", "Description", "How to Use", "Future Plans", "Link to ChatGPT Website", "Contributions", "License."
+)
+[CONTRIBUTIONS] = Include that I'm open to contributions.
+[STATUS] = (
+  "Concept/Idea", "Planning/Design", "Development/Alpha", "Beta", "Release Candidate", "Production/Stable", "Production/Stable", "Maintenance", "Deprecated", "Archived"
+)
+[DESCRIPTION] =
+
+Act as an expert in GitHub.
+Write a README.md file to go with my repository of [TOPIC]. The general domain is [DOMAIN]. Include the following headings: [HEADINGS] [CONTRIBUTIONS]. The project is named {{PROJECT_NAME}}
+
+Use a descriptive tone of voice, write professional, business style. The target audience is a tech-savvy customer.
+
 
 ChatGPT
 -------

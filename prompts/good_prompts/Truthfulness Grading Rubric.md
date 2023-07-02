@@ -1,7 +1,8 @@
 # Truthfulness Grading Rubric
 
-{{TEXT}} =
-Please analyze the {{TEXT}} and provide a total truth score based on the following rubric.
+[TEXT] = {{TEXT}}
+
+Please analyze the [TEXT] and provide a total truth score based on the following rubric.
 
 | Criteria         | Meaning                                                          | Point Value | Point Value of Current Text | Grade |
 | ---------------- | ---------------------------------------------------------------- | ----------- | --------------------------- | ----- |
